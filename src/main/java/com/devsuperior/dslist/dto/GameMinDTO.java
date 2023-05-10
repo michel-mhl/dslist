@@ -12,6 +12,7 @@ public class GameMinDTO {
     private String imgUrl;
 
     private String shortDescription;
+
     public GameMinDTO(Game entity) {
         this.id = entity.getId();
         this.title = entity.getTitle();
