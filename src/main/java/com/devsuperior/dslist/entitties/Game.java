@@ -25,6 +25,14 @@ public class Game {
     @Column(columnDefinition = "TEXT")
     private String longDescription;
 
+    public String getPlatforms() {
+        return platforms;
+    }
+
+    public void setPlatforms(String platforms) {
+        this.platforms = platforms;
+    }
+
     public Long getId() {
         return id;
     }
